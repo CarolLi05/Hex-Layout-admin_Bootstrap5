@@ -2,5 +2,10 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import "mixins";
+
+//components
+@import "nav";
+@import "icon";
 
 @import './layout/index.scss'

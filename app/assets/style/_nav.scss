@@ -1,0 +1,24 @@
+
+.nav-section{
+    position: fixed;
+    min-width: 296px;
+    min-height: 100vh;
+}
+
+.nav-link{
+    &.active{
+        color: $success;
+    }
+}
+
+.logo{
+    @include hide-text;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week5/logo-ANSWER.svg);
+    width: 151px;
+    height: 40px;
+}
+
+.user-img{
+    width: 40px;
+    height: 40px;
+}
