@@ -12289,6 +12289,24 @@ fieldset:disabled .btn {
   min-height: 100vh;
 }
 
+.nav-section .nav-link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nav-section .nav-link.active::before, .nav-section .nav-link:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+
+.nav-link:hover {
+  color: #198754;
+}
+
 .nav-link.active {
   color: #198754;
 }
@@ -12302,9 +12320,11 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
-.user-img {
+.user-img img {
   width: 40px;
   height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @font-face {
@@ -12375,10 +12395,23 @@ fieldset:disabled .btn {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.list-group-item {
+  padding: 12px;
+}
+
+.list-group-item.active {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  color: inherit;
+}
+
+.assignment-card .card-header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.wrap {
+  margin-left: 296px;
 }
 
 /*# sourceMappingURL=all.css.map */

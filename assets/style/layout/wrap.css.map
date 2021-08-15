@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/wrap.scss","layout/wrap.css"],"names":[],"mappings":"AACA;EACE,kBAAkB;ACApB","file":"wrap.css","sourcesContent":["\n.wrap{\n  margin-left: 296px;\n}",".wrap {\n  margin-left: 296px;\n}\n"]}
