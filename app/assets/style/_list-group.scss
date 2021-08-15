@@ -1,0 +1,9 @@
+
+.list-group-item{
+    padding: 12px;
+    &.active{
+        background-color: $light;
+        border-color: $gray-400;
+        color: inherit;
+    }
+}
