@@ -12349,6 +12349,7 @@ fieldset:disabled .btn {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  vertical-align: middle;
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
   /* Support for Safari and Chrome. */
@@ -12408,6 +12409,13 @@ fieldset:disabled .btn {
 .assignment-card .card-header {
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.assignment-card-img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .wrap {
