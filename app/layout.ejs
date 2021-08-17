@@ -19,7 +19,7 @@
     <div class="nav-section d-flex flex-column justify-content-between bg-light">
       <ul class="nav flex-column">
          <h1 class="logo m-5">
-           <a href="#" aria-current="assignment">ANSWER</a>
+           <a href="index.html" class="<%- current == 'index'? 'active' : '' %>" aria-current="index">ANSWER</a>
          </h1>
          <li class="nav-item">
            <a class="nav-link d-flex align-items-center pt-0 px-5" href="#">
@@ -38,7 +38,7 @@
            </a>
          </li>
          <li class="nav-item">
-           <a class="nav-link d-flex align-items-center px-5 active" href="#" aria-current="assignment">
+           <a class="nav-link d-flex align-items-center px-5 <%- current == 'index'? 'active' : '' %>"" href="index.html" aria-current="index">
              <span class="material-icons me-3">
                assignment
              </span>
@@ -54,7 +54,7 @@
            </a>
          </li>
          <li class="nav-item">
-           <a class="nav-link d-flex align-items-center px-5" href="admin.html" aria-current="admin">
+           <a class="nav-link d-flex align-items-center px-5 <%- current == 'admin'? 'active' : '' %>" href="admin.html" aria-current="admin">
              <span class="material-icons me-3">
                supervisor_account
              </span>
@@ -84,6 +84,7 @@
     <%- contents %>
 
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
 

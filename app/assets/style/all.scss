@@ -4,10 +4,6 @@
 
 @import "mixins";
 
-//components
-@import "nav";
-@import "icon";
-@import "list-group";
-@import "card";
-
-@import './layout/wrap.scss'
+@import "components";
+@import './layout/wrap';
+@import './vendor/ck-editor'
