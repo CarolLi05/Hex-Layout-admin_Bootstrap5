@@ -12411,15 +12411,46 @@ fieldset:disabled .btn {
   padding-bottom: 12px;
 }
 
-.assignment-card-img {
+.avatar {
   width: 40px;
   height: 40px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+.table > :not(caption) > * > * {
+  padding: 1rem 0;
+  vertical-align: middle;
+}
+
+.page-link {
+  border: 1px solid #198754;
+}
+
+.page-link:hover {
+  border: 1px solid #198754;
+}
+
 .wrap {
   margin-left: 296px;
+}
+
+.ck-content {
+  height: 12.75rem;
+  padding: 1rem;
+  color: #ced4da;
+}
+
+.editorWrap {
+  display: none;
+}
+
+.editorWrap.active {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15.125rem;
 }
 
 /*# sourceMappingURL=all.css.map */
